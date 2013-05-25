@@ -10,5 +10,5 @@ urlpatterns = patterns('',
             slug_url_kwarg='username',
             context_object_name='profile',
             template_name='profiles/detail.html'),
-        name='profile_detail'),
+        name='user_detail'),
 )

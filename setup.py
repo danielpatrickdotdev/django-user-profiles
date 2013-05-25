@@ -7,15 +7,17 @@ setup(
     version="0.1",
     author='Danny Patrick',
     author_email='danieljudepatrick@gmail.com',
-    description='Just a custom user profile application',
-    #url='http://github.com/...',
+    description='Custom user profile',
+    url='http://github.com/remarkablerocket/django-user-profiles',
     packages=find_packages(),
     include_package_data=True,
     classifiers=[
+        "Development Status :: 1 - Planning",
+        "Environment :: Web Environment",
         "Framework :: Django",
-        "Intended Audience :: Me",
-        "Intended Audience :: System Administrators",
+        "Intended Audience :: Developers",
+        "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
-        "Topic :: Software Development"
+        "Programming Language :: Python"
     ],
 )
